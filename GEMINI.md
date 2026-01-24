@@ -15,6 +15,12 @@
 - 日本語と英数字の間には半角スペースを入れる。
 
 ## プロジェクト概要
+Opera browser sidebar extension that integrates Todoist task management directly into the browser sidebar.
+
+### 技術スタック
+- **言語**: JavaScript
+- **フレームワーク**: Opera WebExtensions API
+- **パッケージマネージャー**: none
 
 ## コーディング規約
 - フォーマット: 既存設定（ESLint / Prettier / formatter）に従う。
@@ -22,9 +28,23 @@
 - コメント言語: 日本語
 - エラーメッセージ: 英語
 
-## 開発コマンド
+### 開発コマンド
 ```bash
-# README を確認してください
+# install
+No build system - direct deployment
+
+# dev
+Manual testing in Opera browser
+
+# build
+None - static files
+
+# test
+None
+
+# lint
+None
+
 ```
 
 ## 注意事項
@@ -33,3 +53,9 @@
 - 既存のプロジェクトルールがある場合はそれを優先する。
 
 ## リポジトリ固有
+- **extension_type**: Sidebar WebExtension (Opera)
+- **manifest_version**: 2
+**permissions:**
+  - webRequest
+  - webRequestBlocking
+- **deployment**: Opera add-ons store or manual installation

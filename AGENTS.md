@@ -25,3 +25,9 @@
 - ログに機密情報を出力しない。
 
 ## リポジトリ固有
+- **extension_type**: Sidebar WebExtension (Opera)
+- **manifest_version**: 2
+**permissions:**
+  - webRequest
+  - webRequestBlocking
+- **deployment**: Opera add-ons store or manual installation
